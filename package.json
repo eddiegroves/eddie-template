@@ -1,0 +1,15 @@
+{
+  "name": "eddie-template",
+  "version": "1.0.0",
+  "description": "Another template for React with TypeScript, Webpack, Mobx and CSS Modules.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddiegroves/eddie-template.git"
+  },
+  "author": "@eddiegroves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eddiegroves/eddie-template/issues"
+  },
+  "homepage": "https://github.com/eddiegroves/eddie-template"
+}
