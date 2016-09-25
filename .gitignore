@@ -1,4 +1,5 @@
 ### Project ###
+dist/
 
 ### JetBrains IDEs ###
 # Ignore entire .idea folder vs gitignore.io/api/jetbrains
