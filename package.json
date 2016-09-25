@@ -14,5 +14,16 @@
   "bugs": {
     "url": "https://github.com/eddiegroves/eddie-template/issues"
   },
-  "homepage": "https://github.com/eddiegroves/eddie-template"
+  "homepage": "https://github.com/eddiegroves/eddie-template",
+  "devDependencies": {
+    "ts-loader": "^0.8.2",
+    "typescript": "^2.0.3",
+    "webpack": "^1.13.2"
+  },
+  "dependencies": {
+    "mobx": "^2.5.1",
+    "mobx-react": "^3.5.6",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
 }
