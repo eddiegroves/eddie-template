@@ -16,6 +16,8 @@
   },
   "homepage": "https://github.com/eddiegroves/eddie-template",
   "devDependencies": {
+    "@types/react": "^0.14.37",
+    "@types/react-dom": "^0.14.17",
     "ts-loader": "^0.8.2",
     "typescript": "^2.0.3",
     "webpack": "^1.13.2"
