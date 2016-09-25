@@ -2,6 +2,9 @@
   "name": "eddie-template",
   "version": "1.0.0",
   "description": "Another template for React with TypeScript, Webpack, Mobx and CSS Modules.",
+  "scripts": {
+    "gitignore": "curl https://www.gitignore.io/api/visualstudiocode,node > gitignore_merge_me"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eddiegroves/eddie-template.git"
