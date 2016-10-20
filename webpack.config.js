@@ -1,17 +1,20 @@
+var CommonsChunkPlugin = require('webpack/lib/optimize/CommonsChunkPlugin');
+
 module.exports = {
-    entry: "./src/index.tsx",
+    entry: {
+      app: [ './src/index.js' ],
+      common: [ 'react', 'mobx', 'mobx-react', 'tslib' ],
+    },
+    
     output: {
-        filename: "./dist/bundle.js",
+        filename: "./dist/app.js",
     },
 
-    resolve: {
-        extensions: ["", ".ts", ".tsx", ".js"]
-    },
-
-    module: {
-        loaders: [
-            // All files with a '.ts' or '.tsx' extension will be handled by 'ts-loader'.
-            { test: /\.tsx?$/, loader: "ts-loader" }
-        ]
-    }
+    plugins: [
+      // Places common modules into single js file
+      new CommonsChunkPlugin({
+        name: "common",
+        filename: "./dist/common.js",
+      })
+    ]
 };

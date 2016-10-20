@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Another template for React with TypeScript, Webpack, Mobx and CSS Modules.",
   "scripts": {
-    "gitignore": "curl https://www.gitignore.io/api/visualstudiocode,node > gitignore_merge_me"
+    "gitignore": "curl https://www.gitignore.io/api/visualstudiocode,node > gitignore_merge_me",
+    "tsc": "./node_modules/.bin/tsc --pretty"
   },
   "repository": {
     "type": "git",
@@ -18,14 +19,14 @@
   "devDependencies": {
     "@types/react": "^0.14.37",
     "@types/react-dom": "^0.14.17",
-    "ts-loader": "^0.8.2",
-    "typescript": "^2.0.3",
+    "typescript": "^2.1.0-dev.20161020",
     "webpack": "^1.13.2"
   },
   "dependencies": {
     "mobx": "^2.5.1",
     "mobx-react": "^3.5.6",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "tslib": "^1.0.0"
   }
 }

@@ -2,7 +2,7 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { UiStateStore as Store } from './store'
 import { Hello } from './Hello';
-import { Clicker } from "./Clicker";
+import { Clicker } from "./clicker/Clicker";
 
 ReactDOM.render(
     <div>

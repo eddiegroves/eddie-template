@@ -5,6 +5,7 @@
         "noImplicitAny": false,
         "sourceMap": false,
         "jsx": "react",
-        "experimentalDecorators": true
+        "experimentalDecorators": true,
+        "importHelpers": true
     }
 }

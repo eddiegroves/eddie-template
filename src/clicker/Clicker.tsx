@@ -1,5 +1,5 @@
 import * as React from "react";
-import { UiStore } from "./store";
+import { UiStore } from "../store";
 
 export interface ClickerProps { store: UiStore; }
 
