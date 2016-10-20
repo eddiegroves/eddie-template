@@ -4,7 +4,9 @@
   "description": "Another template for React with TypeScript, Webpack, Mobx and CSS Modules.",
   "scripts": {
     "gitignore": "curl https://www.gitignore.io/api/visualstudiocode,node > gitignore_merge_me",
-    "tsc": "./node_modules/.bin/tsc --pretty"
+    "webpack": "./node_modules/.bin/webpack --colours",
+    "tsc": "./node_modules/.bin/tsc --pretty",
+    "tcm": "./node_modules/.bin/tcm ./src"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,10 @@
   "devDependencies": {
     "@types/react": "^0.14.37",
     "@types/react-dom": "^0.14.17",
+    "css-loader": "^0.25.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "style-loader": "^0.13.1",
+    "typed-css-modules": "^0.1.13",
     "typescript": "^2.1.0-dev.20161020",
     "webpack": "^1.13.2"
   },
